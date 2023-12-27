@@ -1,0 +1,1 @@
+liquibase --logLevel=warning --url "jdbc:sqlserver://localhost:1433;databaseName=testdb" --username "script_adm" --password "pass" --changeLogFile="data.master.changelog.xml" --driver=com.microsoft.sqlserver.jdbc.SQLServerDriver --defaultSchemaName dbo --contexts="CLIENTX,DEV" Update
